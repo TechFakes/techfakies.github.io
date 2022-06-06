@@ -1,0 +1,45 @@
+body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    color: darkslateblue;
+    background-color: #FFFFFF;
+    width: 800px;
+    padding: 0 20px 20px 20px;
+    margin: 0 auto; /* this centers the contents on the page */
+  }
+  
+  html {
+      background-image: url(https://anlucas.neocities.org/blackgranite.gif);
+  }
+  
+  /* This makes tables look old-timey: */
+  
+  }
+  th, td {
+      padding: 5px;
+      border-top: 1px solid #808080;
+      border-left: 1px solid #808080;
+      border-bottom: 1px solid #c0c0c0;
+      border-right: 1px solid #c0c0c0;
+      background: rgba(255, 255, 255, 0.5); /* semi-transparent white */
+  }
+  /* Here's your special divider style, if you chose one: */
+  hr {
+    border: none; background: url('/dividers/hline.gif') left no-repeat; height: 5px; width: 576px;
+    margin: 0 auto; /* center the horizontal rule */
+  }
+  
+  @-webkit-keyframes blinker {  
+    from { opacity: 1.0; }
+    to { opacity: 0.0; }
+  }
+  .css3-blink {
+    -webkit-animation-name: blinker;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+    -webkit-animation-duration: 1s; 
+  }			
+  }
+  
+  a:link {
+    color: royalblue;
+  }
